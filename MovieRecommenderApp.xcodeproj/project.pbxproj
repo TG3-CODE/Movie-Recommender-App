@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A98BEB322DDD19A0003D3BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98BEB192DDD199F003D3BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98BEB202DDD199F003D3BB0;
+			remoteInfo = MovieRecommenderApp;
+		};
+		A98BEB3C2DDD19A0003D3BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98BEB192DDD199F003D3BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98BEB202DDD199F003D3BB0;
+			remoteInfo = MovieRecommenderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A98BEB212DDD199F003D3BB0 /* MovieRecommenderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieRecommenderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98BEB312DDD19A0003D3BB0 /* MovieRecommenderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieRecommenderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98BEB3B2DDD19A0003D3BB0 /* MovieRecommenderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieRecommenderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A98BEB232DDD199F003D3BB0 /* MovieRecommenderApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MovieRecommenderApp;
+			sourceTree = "<group>";
+		};
+		A98BEB342DDD19A0003D3BB0 /* MovieRecommenderAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MovieRecommenderAppTests;
+			sourceTree = "<group>";
+		};
+		A98BEB3E2DDD19A0003D3BB0 /* MovieRecommenderAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MovieRecommenderAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98BEB1E2DDD199F003D3BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98BEB2E2DDD19A0003D3BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98BEB382DDD19A0003D3BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98BEB182DDD199F003D3BB0 = {
+			isa = PBXGroup;
+			children = (
+				A98BEB232DDD199F003D3BB0 /* MovieRecommenderApp */,
+				A98BEB342DDD19A0003D3BB0 /* MovieRecommenderAppTests */,
+				A98BEB3E2DDD19A0003D3BB0 /* MovieRecommenderAppUITests */,
+				A98BEB222DDD199F003D3BB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98BEB222DDD199F003D3BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98BEB212DDD199F003D3BB0 /* MovieRecommenderApp.app */,
+				A98BEB312DDD19A0003D3BB0 /* MovieRecommenderAppTests.xctest */,
+				A98BEB3B2DDD19A0003D3BB0 /* MovieRecommenderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98BEB202DDD199F003D3BB0 /* MovieRecommenderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98BEB452DDD19A0003D3BB0 /* Build configuration list for PBXNativeTarget "MovieRecommenderApp" */;
+			buildPhases = (
+				A98BEB1D2DDD199F003D3BB0 /* Sources */,
+				A98BEB1E2DDD199F003D3BB0 /* Frameworks */,
+				A98BEB1F2DDD199F003D3BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A98BEB232DDD199F003D3BB0 /* MovieRecommenderApp */,
+			);
+			name = MovieRecommenderApp;
+			packageProductDependencies = (
+			);
+			productName = MovieRecommenderApp;
+			productReference = A98BEB212DDD199F003D3BB0 /* MovieRecommenderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A98BEB302DDD19A0003D3BB0 /* MovieRecommenderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98BEB482DDD19A0003D3BB0 /* Build configuration list for PBXNativeTarget "MovieRecommenderAppTests" */;
+			buildPhases = (
+				A98BEB2D2DDD19A0003D3BB0 /* Sources */,
+				A98BEB2E2DDD19A0003D3BB0 /* Frameworks */,
+				A98BEB2F2DDD19A0003D3BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98BEB332DDD19A0003D3BB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A98BEB342DDD19A0003D3BB0 /* MovieRecommenderAppTests */,
+			);
+			name = MovieRecommenderAppTests;
+			packageProductDependencies = (
+			);
+			productName = MovieRecommenderAppTests;
+			productReference = A98BEB312DDD19A0003D3BB0 /* MovieRecommenderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A98BEB3A2DDD19A0003D3BB0 /* MovieRecommenderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98BEB4B2DDD19A0003D3BB0 /* Build configuration list for PBXNativeTarget "MovieRecommenderAppUITests" */;
+			buildPhases = (
+				A98BEB372DDD19A0003D3BB0 /* Sources */,
+				A98BEB382DDD19A0003D3BB0 /* Frameworks */,
+				A98BEB392DDD19A0003D3BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98BEB3D2DDD19A0003D3BB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A98BEB3E2DDD19A0003D3BB0 /* MovieRecommenderAppUITests */,
+			);
+			name = MovieRecommenderAppUITests;
+			packageProductDependencies = (
+			);
+			productName = MovieRecommenderAppUITests;
+			productReference = A98BEB3B2DDD19A0003D3BB0 /* MovieRecommenderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98BEB192DDD199F003D3BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A98BEB202DDD199F003D3BB0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A98BEB302DDD19A0003D3BB0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A98BEB202DDD199F003D3BB0;
+					};
+					A98BEB3A2DDD19A0003D3BB0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A98BEB202DDD199F003D3BB0;
+					};
+				};
+			};
+			buildConfigurationList = A98BEB1C2DDD199F003D3BB0 /* Build configuration list for PBXProject "MovieRecommenderApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98BEB182DDD199F003D3BB0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A98BEB222DDD199F003D3BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98BEB202DDD199F003D3BB0 /* MovieRecommenderApp */,
+				A98BEB302DDD19A0003D3BB0 /* MovieRecommenderAppTests */,
+				A98BEB3A2DDD19A0003D3BB0 /* MovieRecommenderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98BEB1F2DDD199F003D3BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98BEB2F2DDD19A0003D3BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98BEB392DDD19A0003D3BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98BEB1D2DDD199F003D3BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98BEB2D2DDD19A0003D3BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98BEB372DDD19A0003D3BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A98BEB332DDD19A0003D3BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98BEB202DDD199F003D3BB0 /* MovieRecommenderApp */;
+			targetProxy = A98BEB322DDD19A0003D3BB0 /* PBXContainerItemProxy */;
+		};
+		A98BEB3D2DDD19A0003D3BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98BEB202DDD199F003D3BB0 /* MovieRecommenderApp */;
+			targetProxy = A98BEB3C2DDD19A0003D3BB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A98BEB432DDD19A0003D3BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98BEB442DDD19A0003D3BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98BEB462DDD19A0003D3BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieRecommenderApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.MovieRecommenderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A98BEB472DDD19A0003D3BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieRecommenderApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.MovieRecommenderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A98BEB492DDD19A0003D3BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.MovieRecommenderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieRecommenderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieRecommenderApp";
+			};
+			name = Debug;
+		};
+		A98BEB4A2DDD19A0003D3BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.MovieRecommenderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieRecommenderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieRecommenderApp";
+			};
+			name = Release;
+		};
+		A98BEB4C2DDD19A0003D3BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.MovieRecommenderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovieRecommenderApp;
+			};
+			name = Debug;
+		};
+		A98BEB4D2DDD19A0003D3BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.MovieRecommenderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MovieRecommenderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98BEB1C2DDD199F003D3BB0 /* Build configuration list for PBXProject "MovieRecommenderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98BEB432DDD19A0003D3BB0 /* Debug */,
+				A98BEB442DDD19A0003D3BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98BEB452DDD19A0003D3BB0 /* Build configuration list for PBXNativeTarget "MovieRecommenderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98BEB462DDD19A0003D3BB0 /* Debug */,
+				A98BEB472DDD19A0003D3BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98BEB482DDD19A0003D3BB0 /* Build configuration list for PBXNativeTarget "MovieRecommenderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98BEB492DDD19A0003D3BB0 /* Debug */,
+				A98BEB4A2DDD19A0003D3BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98BEB4B2DDD19A0003D3BB0 /* Build configuration list for PBXNativeTarget "MovieRecommenderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98BEB4C2DDD19A0003D3BB0 /* Debug */,
+				A98BEB4D2DDD19A0003D3BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98BEB192DDD199F003D3BB0 /* Project object */;
+}
