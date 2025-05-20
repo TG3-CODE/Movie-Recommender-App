@@ -1,83 +1,106 @@
-# Movie-Recommender-App
+# Movie Night Planner
 
-Overview 
+## Overview
+Movie Night Planner is an iOS application built with SwiftUI that helps users discover movies, plan movie nights with friends, and keep track of upcoming events. The app integrates with The Movie Database (TMDB) API to provide up-to-date movie information and recommendations.
 
-Movie Night Planner is an iOS application built with SwiftUI that helps users discover movies, plan movie nights with friends, and keep track of upcoming events. The app integrates with The Movie Database (TMDB) API to provide up-to-date movie information and recommendations. 
+## Features
+- **User Authentication**
+  - Secure login system
+  - Password protection
+  - User profiles
 
-Features 
+- **Movie Discovery**
+  - Browse and search functionality
+  - Integration with TMDB API
+  - Detailed movie information
 
-User Authentication: Secure login system with password protection 
+- **Genre-Based Recommendations**
+  - Action category
+  - Comedy category
+  - Drama category
+  - Horror category
+  - Science Fiction category
 
-Movie Discovery: Browse and search for movies using TMDB's extensive database 
+- **Event Planning**
+  - Date and time scheduling
+  - Attendee tracking
+  - Event notes
 
-Genre-Based Recommendations: Explore movies by genre categories including Action, Comedy, Drama, Horror, and Science Fiction 
+- **Notification System**
+  - Customizable reminder timing
+  - Event alerts
+  - Sound notifications
 
-Event Planning: Create and organize movie night events with customizable details:  
+- **Event Management**
+  - List of planned events
+  - Event details view
+  - Organized chronological display
 
-Event name and movie selection 
+- **Personalization**
+  - Dark/Light mode toggle
+  - Notification preferences
+  - Volume controls
 
-Date and time scheduling 
+## Technical Highlights
+- **Modern UI Framework**
+  - Built with SwiftUI
+  - Responsive design
+  - Custom styled components
 
-Attendee tracking 
+- **Architecture**
+  - MVVM pattern implementation
+  - Observable objects
+  - State management
 
-Event notes 
+- **API Integration**
+  - TMDB API connectivity
+  - JSON data parsing
+  - Image loading from remote URLs
 
-Notification System: Get reminders for upcoming movie nights (customizable notification timing) 
+- **Networking**
+  - URLSession for API requests
+  - Asynchronous data fetching
+  - Error handling
 
-Event Management: View all planned movie nights in an organized list 
+- **Local Notifications**
+  - UNUserNotificationCenter implementation
+  - Scheduled notifications
+  - Custom notification content
 
-Personalization: Customize app settings including:  
+- **Data Persistence**
+  - AppStorage for settings
+  - Environment objects
+  - State preservation
 
-Dark/Light mode toggle 
+## Requirements
+- iOS 15.0+
+- Xcode 14.0+
+- Swift 5.7+
+- Active internet connection
 
-Notification preferences 
+## Installation
+1. Clone this repository
+2. Open the project in Xcode
+3. Replace the API key and access token with your own TMDB credentials
+4. Build and run on your device or simulator
 
-Volume controls 
+## Future Enhancements
+- **Social Features**
+  - Share events with friends
+  - Social media integration
+  - Group chat functionality
 
-Technical Highlights 
+- **Enhanced Movie Details**
+  - Cast information
+  - User reviews
+  - Similar movie recommendations
 
-Built with SwiftUI for a modern, responsive UI 
+- **Advanced Planning**
+  - Group invitation system
+  - Calendar integration
+  - Automatic reminders
 
-Implements the MVVM architecture pattern 
+##App Preview Link 
+(https://drive.google.com/file/d/1J6rFkuf-hxO4sFiP6IT4lStJvmmQCCaa/view?usp=sharing)
 
-Integrates with TMDB API for movie data 
-
-Uses URLSession for network requests 
-
-Implements UNUserNotificationCenter for local notifications 
-
-Leverages @AppStorage for persistent user preferences 
-
-Features custom UI elements and background styling 
-
-Requirements 
-
-iOS 15.0+ 
-
-Xcode 14.0+ 
-
-Swift 5.7+ 
-
-Active internet connection for movie data 
-
-Installation 
-
-Clone this repository 
-
-Open the project in Xcode 
-
-Replace the API key and access token with your own TMDB credentials 
-
-Build and run on your device or simulator 
-
-Future Enhancements 
-
-Social sharing capabilities 
-
-Movie favorites and watchlist 
-
-Enhanced movie details (cast, reviews, similar movies) 
-
-Group invitation system 
-
-Calendar integration 
+Developed by Gayatri Talluri 
